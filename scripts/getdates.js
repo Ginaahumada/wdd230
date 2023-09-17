@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentYear = new Date().getFullYear();
 
     // Update the copyright year in the footer's first paragraph
-    document.querySelector('footer p:first-child').innerHTML = `&copy; ${currentYear} <span id="currentYear"></span> Nilberth Escobar`;
+    document.querySelector('footer p:first-child').innerHTML = `&copy; ${currentYear} <span id="currentYear"></span> Gina Ahumada`;
 
     // Get the last modified date of the document
     let lastModified = new Date(document.lastModified);
