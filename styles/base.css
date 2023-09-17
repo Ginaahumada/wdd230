@@ -1,0 +1,118 @@
+/* base.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+nav {
+    background-color: #333;
+    color: #fff;
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: grid; /* Use CSS Grid */
+    gap: 20px; /* Add some space between grid items */
+    grid-template-columns: 1fr; /* Single column layout */
+    font-family: 'Roboto Condensand', 'Arial', sans-serif;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* Style course links list */
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #0b4f6c;
+    color: white;
+    font-family: 'Roboto Condensant';
+    
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #0b4f6c;
+    color: white;
+    font-family: 'Roboto Condensand';
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+#lastModified {
+    font-size: 15px;
+    color: violet;
+}
