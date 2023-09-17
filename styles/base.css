@@ -1,8 +1,7 @@
-/* base.css */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=EB+Garamond&display=swap" rel="stylesheet');
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'EB Garamond', serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -10,31 +9,43 @@ body {
 }
 
 header {
-    text-align: center;
-    padding: 20px;
     background-color: #fff;
+    padding: 20px;
+    text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Acme', sans-serif;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    margin-right: 20px;
 }
 
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
 
 nav {
-    background-color: #333;
+    background-color: #304e70;
     color: #fff;
     
 }
-
 
 nav ul {
     list-style-type: none;
     padding: 0;
     display: grid;
     justify-content: center;
+    text-align: center;
 }
 
 nav li {
@@ -48,7 +59,6 @@ nav a {
     font-size: 18px;
 }
 
-
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -58,7 +68,7 @@ main {
     display: grid; /* Use CSS Grid */
     gap: 20px; /* Add some space between grid items */
     grid-template-columns: 1fr; /* Single column layout */
-    font-family: 'Roboto Condensand', 'Arial', sans-serif;
+    font-family: 'EB Garamond', serif;
 }
 
 .card {
@@ -77,23 +87,21 @@ main {
 .card ul li {
     margin-bottom: 10px;
 }
+
 h2 {
     font-size: 25px;
     margin-bottom: 20px;
     text-align: center;
-    background-color: #0b4f6c;
-    color: white;
-    font-family: 'Roboto Condensant';
-    
+    background-color: #426c9c;
+    color: white;    
 }
 
 h3 {
     font-size: 20px;
     margin-bottom: 10px;
     text-align: center;
-    background-color: #0b4f6c;
+    background-color: #426c9c;
     color: white;
-    font-family: 'Roboto Condensand';
 }
 
 ul {
@@ -108,11 +116,11 @@ ul li {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #304e70;
     color: #fff;
 }
 
 #lastModified {
     font-size: 15px;
-    color: violet;
+    color: rgb(255, 255, 255);
 }
