@@ -1,0 +1,58 @@
+/* Apply CSS normalization or equivalent at any level (CSS reset) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f5f5f5; 
+    color: #333; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Grid layout for cards */
+.card {
+    display: grid;
+    grid-template-columns: 1fr; /* Default: one column */
+    gap: 1rem;
+    background-color: #fff; /* White card background */
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for cards */
+}
+
+h2 {
+    font-size: 1.5rem; 
+    color: #3498db; 
+    margin-bottom: 0.5rem; 
+}
+
+/* Links styles */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+/* Link hover styles */
+a:hover {
+    text-decoration: underline; 
+}
+
+/* Responsive design using CSS Grid and media queries */
+@media screen and (min-width: 768px) {
+    .card {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        grid-template-columns: repeat(3, 1fr); /* Three columns for large screens */
+    }
+}
