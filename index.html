@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +8,13 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://images.pexels.com/photos/15847154/pexels-photo-15847154/free-photo-of-panorama-urbano-verano-rascacielos-cielo-azul.jpeg">
     <meta property="og:url" content="https://ginaahumada.github.io/wdd230/">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/larger.css">
     <meta name="description" content="WDD 230 - Web Frontend Development - Gina Ahumada - course assignment portal.">
     <meta name="author" content="Gina Ahumada">    
 </head>
@@ -41,9 +44,9 @@
             <h3>Learning Activities</h3>
             <ul>
                 <li>01: <a href="lesson01/holygrail.html">Holy Layout</a> | <a href="https://codepen.io/ginaahumada/pen/VwqEzVr">JS Pen</a></li>
-                <li>02: <a href="lesson02/design.html">Design Principles</a> | <a href="lesson01/media-query.html">Media Query</a></li> | <a href="lesson02/design-principles.html">Design Principles Document</a></li>
-                <li>03: <a href="images/combinator_exercise.jpg">Combinators</a></li>
-                <li>04: <a href="#">6</a></li>
+                <li>02: <a href="lesson02/design.html">Design Principles</a> | <a href="lesson01/media-query.html">Media Query</a> | <a href="lesson02/design-principles.html">Design Principles Document</a></li>
+                <li>03: <a href="images/combinator_exercise.jpg">Combinators</a> | <a href="https://codepen.io/ginaahumada/pen/ExGdQbw">Pseudo-elements</a> | <a href="https://codepen.io/ginaahumada/pen/abPRqjq">Responsive Menu</a></li>
+            
             </ul>
         </section>
 
@@ -53,8 +56,9 @@
             <p>🌤️ 80°F - Sunny</p>
             <p>Page Visits: 700</p>
         </section>
-    </main>
 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15695.909837303318!2d-75.54150373255611!3d10.423363210498986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1696444727101!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
     <footer>
         <p>&#169; <span id="currentYear"></span>2023 Gina Ahumada</p>
             <p>Colombia</p>
@@ -63,6 +67,7 @@
     </footer>
 
     <script src="scripts/getdates.js"></script>
+    <script src="./scripts/responsive-menu.js"></script>
 </body>
 
 </html>
