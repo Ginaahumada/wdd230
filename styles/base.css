@@ -37,20 +37,14 @@ h1 {
 nav {
     background-color: #304e70;
     color: #fff;
-    
-}
-
-nav ul {
     list-style-type: none;
     padding: 0;
     display: grid;
     justify-content: center;
     text-align: center;
     display: flex;
-}
-
-nav li {
     margin: 0 10px;
+
 }
 
 nav a {
@@ -135,6 +129,24 @@ footer {
     padding: 10px;
     background-color: #304e70;
     color: #fff;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+	position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#menu::before {
+	content: "☰";
+}
+#menu.open::before {
+	content: "✖️";
 }
 
 #lastModified {
