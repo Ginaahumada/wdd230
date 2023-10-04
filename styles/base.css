@@ -37,6 +37,10 @@ h1 {
 nav {
     background-color: #304e70;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     
 }
 #menu::before {
@@ -66,19 +70,6 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     width: 100%;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: grid;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-}
-
-nav li {
-    margin: 0 10px;
 }
 
 main {
