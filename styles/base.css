@@ -61,7 +61,7 @@ nav a:hover {
 }
 
 .open a {
-    background-color: #dda15e;
+    background-color: #304e70;
     display: flex;
     flex-direction: column;
     align-items: center;
