@@ -43,8 +43,9 @@ nav {
 	content: "☰";
 }
 #menu.open::before {
-	content: "✖️";
+	content: "❌";
 }
+
 nav a {
 	display: none;
     text-decoration: none;
