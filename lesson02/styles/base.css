@@ -1,58 +1,90 @@
-/* Apply CSS normalization or equivalent at any level (CSS reset) */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Lato', sans-serif;
-    background-color: #f5f5f5; 
-    color: #333; 
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    font-family: 'Mooli', sans-serif;
 }
 
-/* Grid layout for cards */
-.card {
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-color: #112A46;
+    color: #D3D3D3;
+}
+
+main {
     display: grid;
-    grid-template-columns: 1fr; /* Default: one column */
-    gap: 1rem;
-    background-color: #fff; /* White card background */
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for cards */
+    grid-template-columns: repeat(3, auto);
+    width: 100%;
 }
 
-h2 {
-    font-size: 1.5rem; 
-    color: #3498db; 
-    margin-bottom: 0.5rem; 
+img {
+    width: 100%;
 }
 
-/* Links styles */
+section {
+    border: 1px solid green;
+}
+
 a {
-    color: #3498db;
-    text-decoration: none;
+    display: block;
+    padding: 10px;
 }
 
-/* Link hover styles */
-a:hover {
-    text-decoration: underline; 
+h3 {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    background-color: #112A46;
+    color: white;
+    margin: 0;
+    height: 50px;
+
 }
 
-/* Responsive design using CSS Grid and media queries */
-@media screen and (min-width: 768px) {
-    .card {
-        grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
-    }
+h4 {
+    padding: 10px;
 }
 
-@media screen and (min-width: 1024px) {
-    .card {
-        grid-template-columns: repeat(3, 1fr); /* Three columns for large screens */
-    }
+.card-one{
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 1%;
+    overflow: hidden;
+    background-color: #D3D3D3;
+}
+
+.card-two {
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 1%;
+    overflow: hidden;
+    background-color: #D3D3D3;
+}
+
+.card-three {
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 1%;
+    overflow: hidden;
+    background-color: #D3D3D3;
+}
+
+footer {
+    margin-top: 20px;
+    height: 100px;
+    background-color: #112A46;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: row;
+}
+
+p {
+    color: #D3D3D3;
+    width: 300px;
+    text-align: center;
+    color: #D3D3D3;
+}
+article {
+    padding: 30px;
 }

@@ -46,6 +46,7 @@ nav ul {
     display: grid;
     justify-content: center;
     text-align: center;
+    display: flex;
 }
 
 nav li {
@@ -65,9 +66,9 @@ main {
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: grid; /* Use CSS Grid */
-    gap: 20px; /* Add some space between grid items */
-    grid-template-columns: 1fr; /* Single column layout */
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
     font-family: 'EB Garamond', serif;
 }
 
@@ -78,7 +79,6 @@ main {
     background-color: #ffffff;
 }
 
-/* Style course links list */
 .card ul {
     list-style-type: none;
     padding: 0;
@@ -102,6 +102,9 @@ h3 {
     text-align: center;
     background-color: #426c9c;
     color: white;
+}
+p {
+    text-align: center;
 }
 
 ul {
