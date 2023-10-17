@@ -45,6 +45,42 @@ ul {
     flex-direction: row;
     list-style: none;
 }
+
+.hero {
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+    height: 700px;
+}
+.herolabel h1 {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 3rem;
+	font-family:'Acme', sans-serif;
+    text-align: center;
+}
 .button-hero {
     text-decoration: none;
     color: white;
@@ -52,28 +88,10 @@ ul {
     padding: 10px 30px;
     border: none;
     border-radius: 25px;
+    font-size: 2rem;
+    font-family:'Acme', sans-serif;
 }
-.hero {
-    width: 100%;
-    background-image: url(../images/hands.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.hero-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 30px;
-    height: 700px;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 1.2;
-    font-family: 'Acme', sans-serif;
-}
+
 section {
     height: 300px;
     width: 100%;

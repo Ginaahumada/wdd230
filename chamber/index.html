@@ -24,7 +24,7 @@
         🕶️
     </div>
     <header>
-        <img class="logo" src="./images/chamber.png" alt="Chamber logo">
+        <img class="logo" src="./images/chamber.webp" alt="Chamber logo">
         <nav>
             <button id="menu"></button>
             <ul class="navigation">
@@ -43,7 +43,12 @@
     </header>
 
     <div class="hero">
-        <div class="hero-text">
+        <picture>
+            <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+            <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
+            <img src="images/hero-large.webp" alt="table setting" width="1280" height="853">
+        </picture>
+        <div class="herolabel">
             <h1>Promoting Sustainable Growth.</h1>
             <a class="button-hero" href="www.facebook.com">join</a>
         </div>
@@ -56,9 +61,10 @@
         </section>
         <section class="weather">
             <h1>Weather</h1>
-            <p>☀️ 33 C</p>
+            <span id="temperature">49 °F</span>
+            <span id="windspeed">5 mph</span>
+            <span id="windchill"></span>
             <p>Humidity: 35%</p>
-            <p>Wind Chill: 30 C</p>
         </section>
         <section class="publicity-1">
             <h1>Publicity 1</h1>
@@ -90,5 +96,6 @@
     <script src="./scripts/getdates.js"></script>
     <script src="./scripts/ham-menu.js"></script>
     <script src="./scripts/black-mode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
