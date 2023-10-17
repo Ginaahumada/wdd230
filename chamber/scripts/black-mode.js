@@ -13,7 +13,7 @@ modeButton.addEventListener("click", () => {
 		header.style.color = "#fff"; 
 
 		section.forEach(section => {
-		section.style.backgroundColor = "#213b44"; 
+		section.style.backgroundColor = "#277391"; 
 		section.style.color = "#fff"; 
 		})
 
@@ -31,7 +31,7 @@ modeButton.addEventListener("click", () => {
 		header.style.color = "#000"; 
 		body.style.backgroundColor = "white"; 
 		section.forEach(section => {
-			section.style.backgroundColor = "#F4A261"; 
+			section.style.backgroundColor = "#e67777"; 
 			section.style.color = "#000"; 
 			})
 		
