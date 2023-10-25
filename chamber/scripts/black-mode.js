@@ -1,4 +1,4 @@
-const modeButton = document.querySelector("#mode");
+const modeButton = document.querySelector("#dark");
 const body = document.body;
 const header = document.querySelector("header"); 
 const section = document.querySelectorAll("section"); 
