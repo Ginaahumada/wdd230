@@ -34,6 +34,14 @@ h1 {
     margin: 0;
 }
 
+nav  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav a {
+}
+
 nav {
     background-color: #304e70;
     color: #fff;
@@ -41,13 +49,9 @@ nav {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    display: block;
+
     
-}
-#menu::before {
-	content: "☰";
-}
-#menu.open::before {
-	content: "✖️";
 }
 
 nav a {
