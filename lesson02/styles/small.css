@@ -1,0 +1,17 @@
+@media screen and (max-width: 700px){
+    main {
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+    .card-one{
+        grid-row: 1/2;
+    }
+    
+    .card-two {
+        grid-row: 2/3;
+    }
+    
+    .card-three {
+        grid-row: 3/4;
+    }
+}
