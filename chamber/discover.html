@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartagena Chamber of Commerce</title>
+    <meta property="og:url" content="https://ginaahumada.github.io/wdd230/chamber/" /> 
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cartagena Chamber of Commerce." />
+    <meta property="og:image" content="https://unsplash.com/es/fotos/E3ns5kt286I" />
+    <link rel="icon" href="palm_favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Neuton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    <meta name="description" content="Promote sustainable growth of local businesses and community well-bein." />
+    <meta name="author" content="Gina Ahumada" />
+</head>
+<body>
+    <div id="dark">
+        🕶️
+    </div>
+    <header>
+        <img class="logo" src="images/chamber_logo.webp" alt="Chamber logo">
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li>
+                    <a href="" target=”_blank”>about us</a>
+                </li>
+                <li>
+                    <a href="" target=”_blank”>Contact us</a>
+                </li>
+                <a class="button-hero" href="#">Sing-up</a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <picture>
+            <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+            <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
+            <img src="images/hero-large.webp" alt="table setting" width="1280" height="853">
+        </picture>
+        <div class="hero2">
+            <h1>Promoting Sustainable Growth.</h1>
+            <a class="button-hero" href="www.facebook.com">join</a>
+        </div>
+    </div>
+
+    <main>
+       <div class="container-discover">
+            <div class="div1">
+                <article class="articles-discover">
+                    <h1>Visits</h1>
+                    <p id="visits"> </p>
+                </article>
+                <article class="articles-discover">
+                    <h1>demographics</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10930.04563841069!2d-71.13981500000001!3d46.77452635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1698459574137!5m2!1sen!2sca" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="information-discover">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla eum ducimus repudiandae ullam tenetur in illo minima, nihil doloribus quidem sunt suscipit. Totam, inventore? Voluptas repellendus distinctio tempora soluta quidem.</p>
+                </article>
+                <article class="articles-discover">
+                    <h1>Events</h1>
+                    <p class="information-discover">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla eum ducimus repudiandae ullam tenetur in illo minima, nihil doloribus quidem sunt suscipit. Totam, inventore? Voluptas repellendus distinctio tempora soluta quidem.</p>
+                </article>
+                <article class="articles-discover">
+                    <h1>Stories of succes</h1>
+                    <p class="information-discover">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla eum ducimus repudiandae ullam tenetur in illo minima, nihil doloribus quidem sunt suscipit. Totam, inventore? Voluptas repellendus distinctio tempora soluta quidem.</p>
+                </article>
+            </div>
+
+            <div class="div2">
+                <picture>
+                    <img  src="./images/Discover1.jpg" alt="new friends working" loading="lazy">
+                </picture>
+                <picture>
+                    <img  src="./images/Discover2.jpg" alt="happy salesman" loading="lazy">
+                </picture>
+                <picture>
+                    <img  src="./images/Discover3.jpg" alt="salesman with client" loading="lazy">
+                </picture>
+                <picture>
+                    <img  src="./images/Discover4.jpg" alt="girls presentation" loading="lazy">
+                </picture>
+                <picture>
+                    <img  src="./images/Discover5.jpg" alt="succesful coworkers" loading="lazy">
+                </picture>
+                <picture>
+                    <img  src="./images/Discover6.jpg" alt="making a report" loading="lazy">
+                </picture>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-chamber">
+            <h2>Cartagena Chamber of Commerce</h2>
+        </div>
+        <div class="footer-name">
+            <p>Gina Ahumada - WDD230 project</p>
+            <p id="year">Cartagena, Colombia &copy; </p>
+            <p id="last-modification">Last Modification: </p>
+        </div>
+    </footer>
+    <script src="./scripts/getdates.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartagena Chamber of Commerce</title>
+    <meta property="og:url" content="https://ginaahumada.github.io/wdd230/chamber/" /> 
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cartagena Chamber of Commerce." />
+    <meta property="og:image" content="https://unsplash.com/es/fotos/E3ns5kt286I" />
+    <link rel="icon" href="palm_favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Neuton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    <meta name="description" content="Promote sustainable growth of local businesses and community well-bein." />
+    <meta name="author" content="Gina Ahumada" />
+</head>
+<body>
+    <div id="dark">
+        🕶️
+    </div>
+    <header>
+        <img class="logo" src="images/chamber_logo.webp" alt="Chamber logo">
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li>
+                    <a href="" target=”_blank”>about us</a>
+                </li>
+                <li>
+                    <a href="" target=”_blank”>Contact us</a>
+                </li>
+                <a class="button-hero" href="#">Sing-up</a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <picture>
+            <source srcset="images/hero-small.webp" media="(max-width: 400px)">
+            <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
+            <img src="images/hero-large.webp" alt="table setting" width="1280" height="853">
+        </picture>
+        <div class="hero2">
+            <h1>Promoting Sustainable Growth.</h1>
+            <a class="button-hero" href="www.facebook.com">join</a>
+        </div>
+    </div>
+
+    <main class="container">
+        <section class="event">
+            <h1>Events</h1>
+            <p>join Us</p>
+        </section>
+        <section class="weather">
+            <h1>Weather</h1>
+            <span id="temperature">49 °F</span>
+            <span id="windspeed">5 mph</span>
+            <span id="windchill"></span>
+            <p>Humidity: 35%</p>
+        </section>
+        <section class="publicity-1">
+            <h1>Publicity 1</h1>
+            <p>------------</p>
+        </section>
+        <section class="publicity-2">
+            <h1>Publicity 2</h1>
+            <p>------------</p>
+        </section>
+        <section class="publicity-3">
+            <h1>Publicity 3</h1>
+            <p>------------</p>
+        </section>
+        <section class="publicity-4">
+            <h1>Publicity 3</h1>
+            <p>------------</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-chamber">
+            <h2>Cartagena Chamber of Commerce</h2>
+        </div>
+        <div class="footer-name">
+            <p>Gina Ahumada - WDD230 project</p>
+            <p id="year">Cartagena, Colombia &copy; </p>
+            <p id="last-modification">Last Modification: </p>
+        </div>
+    </footer>
+    <script src="./scripts/getdates.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>

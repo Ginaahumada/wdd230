@@ -1,0 +1,82 @@
+/* Form */
+:root {
+    --green-color: green; 
+    --red-color: #ff0000; 
+    --secondary-color: #dda15e; 
+}
+
+#r {
+	width: 180px;
+	margin-bottom: 0;
+}
+
+datalist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    writing-mode: vertical-lr;
+    width: 200px;
+}
+
+option {
+    padding: 0;
+}
+
+input[type="range"] {
+    width: 200px;
+    margin: 0;
+    height: 40px;
+    padding: 4px;
+}
+
+form fieldset {
+    font-family: 'Oswald', sans-serif;
+    margin: 2rem 0;
+    border: 2px solid #112A46;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    width: 30%;
+    min-width: 400px;
+}
+form label input {
+    display: block;
+    height: 44px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+label {
+    font-size: 1.5rem;
+}
+
+form label.form input:required {
+    border-left: var(--red-color) solid 6px;
+}
+form label.form input:required:valid {
+    border-left: var(--green-color) solid 6px;
+
+}
+form input.submitBtn {
+    border: none;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+#rangevalue {
+    font-size: 2rem;
+}
+
+form input.submitBtn:hover {
+    font-size: 2rem;
+}
