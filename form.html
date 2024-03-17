@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gina Ahumada - WDD 230 - Web Frontend Development</title>
+    <meta property="og:title" content="Gina Ahumada - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.pexels.com/photos/15847154/pexels-photo-15847154/free-photo-of-panorama-urbano-verano-rascacielos-cielo-azul.jpeg">
+    <meta property="og:url" content="https://ginaahumada.github.io/wdd230/">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Gina Ahumada - course assignment portal.">
+    <meta name="author" content="Gina Ahumada">    
+</head>
+<body>
+    <header>
+        <img src="images/profile.webp" alt="profile image">
+        <h1>Gina Ahumada</h1>
+    </header>
+
+    <nav>
+        <button id="menu"></button>
+        <a href="./index.html">Home</a> 
+        <a href="lesson03/chamber-site-plan.html">Site Plan</a>
+        <a href="chamber/index.html">Chamber</a>
+        <a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/37?lang=eng" target="_blank">Scripture</a>
+    </nav>
+
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Student Form</legend>
+            <label class="form">Username* <input type="text" name="username" id="username" required></label>
+            <label class="form">Password* <input type="password" name="password" pattern="[A-Za-z]{8}" id="password1" required></label>
+            <label class="form">Re-enter Your Password* <input type="password" name="re-enter-password" id="password2" required></label>
+            <label class="form">Please enter a valid email address* <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
+            <label for="r">Page Rating</label>
+            <div id="rangevalue">0</div>
+            <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+
+        </fieldset>
+        <input type="submit" value="Sing Up" class="submitBtn">
+    </form>
+
+    <footer>
+        <p>&#169; <span id="currentYear"></span>2023 Gina Ahumada</p>
+        <p>Colombia</p>
+        <img src="images/colombia-flag.png" alt="Colombia Flag" width="30" height="25">
+        <p id="lastModified">Last modification</p>
+    </footer>
+    <script src="./scripts/getdates.js"></script>
+    <script src="./scripts/responsive-menu.js"></script>
+    <script src="./scripts/visits.js"></script>
+    <script src="./scripts/forms.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartagena Chamber of Commerce</title>
+    <meta property="og:url" content="https://ginaahumada.github.io/wdd230/chamber/" /> 
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cartagena Chamber of Commerce." />
+    <meta property="og:image" content="https://unsplash.com/es/fotos/E3ns5kt286I" />
+    <link rel="icon" href="palm_favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Neuton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    <meta name="description" content="Promote sustainable growth of local businesses and community well-bein." />
+    <meta name="author" content="Gina Ahumada" />
+</head>
+<body>
+    <div id="dark">
+        🕶️
+    </div>
+
+    <header>
+        <img class="logo" src="images/chamber_logo.webp" alt="Chamber logo">
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li>
+                    <a href="./index.html" target=”_blank”>Home</a>
+                </li>
+                <li>
+                    <a href="./discover.html" target=”_blank”>Discover</a>
+                </li>
+                <li>
+                    <a href="./join.html" target=”_blank”>Join</a><hr>
+                </li>
+                <a class="button-hero" href="#">Sing-up</a>
+            </ul>
+        </nav>
+        
+    </header>
+        <main class="form-page">
+        <div class="centered-content">
+        <h1 class="h1form">Membership Application Form</h1>
+
+        </div>
+        <form method="get" action="thankyou.html">
+            <label for="first_name">Applicant's First Name:<input type="text" id="first_name" name="first_name" required></label>
+    
+            <label for="last_name">Applicant's Last Name:<input type="text" id="last_name" name="last_name" required></label>
+    
+            <label for="title">Applicant's Title or Position:<input type="text" id="title" name="title" pattern="^[A-Za-z -]{7,}" title="Please enter at least 7 characters of letters, spaces, or hyphens" placeholder="Enter at least 7 characters"></label>
+    
+            <label for="email">Email Address:<input type="email" id="email" name="email" required placeholder="example@example.com"></label>
+    
+            <label for="phone">Mobile Phone Number:<input type="tel" id="phone" pattern="{7}" name="phone" required></label>
+    
+            <label for="organization">Business/Organization Name:<input type="text" id="organization" name="organization" required></label>
+    
+            <label for="membership">Select Membership Level:<select id="membership" name="membership">
+                    <option value="NP">NP Membership (Free)</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+            </label>
+
+            <label for="description">Business/Organization Description:
+                <textarea id="description" name="description"></textarea>
+            </label>
+    
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+    
+            <input type="submit" value="Join The Chamber" class="submitBtn">
+        </form>
+        <div class="levels">
+            <h1>Choose the membership you like</h1>
+            <div>
+                <div>
+                    <h2>NP Membership</h2>
+                    <p>For non-profit organizations</p>
+                </div>
+                <div>
+                    <p>✅Price: Free</p>
+                    <p>✅Benefits:</p>
+                    <p>✅No membership fee</p>
+                </div>
+            </div>
+            
+            <div>
+                <div>
+                    <h2>Bronze Membership</h2>
+                </div>
+                <div>
+                    <p>✅Price: $50/month</p>
+                    <p>✅Benefits:</p>
+                    <p>✅Special events access</p>
+                    <p>✅Basic training resources</p>
+                </div>
+            </div>
+            
+            <div>
+                <div>
+                    <h2>Silver Membership</h2>
+                </div>
+                <div>
+                    <p>✅Price: $100/month</p>
+                    <p>✅Benefits:</p>
+                    <p>✅Spotlight position on the home page</p>
+                    <p>✅Event discounts</p>
+                </div>
+            </div>
+            
+            <div>
+                <div>
+                    <h2>Gold Membership</h2>
+                </div>
+                <div>
+                    <p>✅Price: $200/month</p>
+                    <p>✅Benefits:</p>
+                    <p>✅All Silver Membership benefits</p>
+                    <p>✅Premium advertising</p>
+                    <p>✅Advanced training resources</p>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-chamber">
+            <h2>Cartagena Chamber of Commerce</h2>
+        </div>
+        <div class="footer-name">
+            <p>Gina Ahumada - WDD230 project</p>
+            <p id="year">Cartagena, Colombia &copy; </p>
+            <p id="last-modification">Last Modification: </p>
+        </div>
+    </footer>
+    <script src="./scripts/getdates.js"></script>
+    <script src="./scripts/ham-menu.js"></script>
+    <script src="./scripts/black-mode.js"></script>
+    <script src="./scripts/loaded-form-time.js"></script>
+</body>
+</html>
