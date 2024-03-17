@@ -1,0 +1,130 @@
+{
+    "lessons": [
+        {
+        "lesson": "01",
+        "links": [
+        {
+            "url":"./lesson01/holygrail.html",
+            "title":"Holy Layout"
+        },
+        {
+            "url":"https://codepen.io/ginaahumada/pen/rNbWoob",
+            "title":"JS Pen"
+        }
+        ]
+        },
+        {
+        "lesson": "02",
+        "links": [
+        {
+            "url":"./lesson02/desing.html",
+            "title":"Media Query"
+        },
+        {
+            "url":"./lesson02/design-principles.html",
+            "title":"Desing Principles Document"
+        }
+        ]
+        },
+        {
+        "lesson": "03",
+        "links": [
+        {
+            "url":"./images/combinators.png",
+            "title":"Combinators"
+        },
+        {
+            "url":"https://codepen.io/ginaahumada/pen/vYMyvvy",
+            "title":"CSS Psuedo Elements"
+        },
+        {
+            "url":"https://codepen.io/ginaahumada/pen/bGJBOOL",
+            "title":"Responsive Menu"
+        }
+        ]
+        },
+        {
+        "lesson": "04",
+        "links": [
+        {
+            "url":"https://codepen.io/ginaahumada/pen/jORVXXp",
+            "title":"Pseudo-class Fun"
+        }
+        ]
+        },
+        {
+        "lesson": "05",
+        "links": [
+        {
+            "url":"./lesson05/bom.html",
+            "title":"Book of Mormon Favorite Chapters Application"
+        },
+        {
+            "url":"lesson03/images/landscape.webp",
+            "title":"WebP"
+        },
+        {
+            "url":"/wdd230/lesson/responsive-images.html",
+            "title":"Responsive Images"
+        }
+        ]
+        },
+        {
+        "lesson": "06",
+        "links": [
+        {
+            "url":"./lesson03/lazyload.html",
+            "title":"Lazy Loading"
+        },
+        {
+            "url":"./lesson06/bom.html",
+            "title":"localStorage"
+        }
+        ]
+        },
+        {
+        "lesson": "07",
+        "links": [
+        {
+            "url":"./lesson07/tablebuild.html",
+            "title":"HTML Tables for Data Presentation"
+        },
+        {
+            "url":"./lesson07/form-start/index.html",
+            "title":"HTML Forms"
+        }
+        ]
+        },
+        {
+        "lesson": "08",
+        "links": [
+        {
+            "url":"./lesson05/new-ward-members.json",
+            "title":"json Family Members"
+        }
+        ]
+        },
+        {
+        "lesson": "09",
+        "links": [
+        {
+            "url":"./lesson09/prophets.html",
+            "title":"Prophets Api"
+        },
+        {
+            "url":"./data/links.json",
+            "title":"json Links"
+        }
+        ]
+        },
+        {
+        "lesson": "10",
+        "links": [
+        {
+            "url":"./lesson05/weather.html",
+            "title":"Weather API"
+        }
+        ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "familyName" : "Gina",
+    "arrivalWard" : "1-01-2023",
+    "numberOfFamily" : "3",
+    "visited" : "true",
+    "familyMembers" : [
+        {
+            "name" : "Alex", 
+            "gender" : "male", 
+            "birthday" : "30-03-1990"
+        },
+        {
+            "name" : "John", 
+            "gender" : "female", 
+            "birthday" : "1-04-1991"
+        },
+        {
+            "name" : "Sophie", 
+            "gender" : "female", 
+            "birthday" : "30-05-2015"
+        }
+    ]
+}
