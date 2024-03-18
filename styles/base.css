@@ -158,6 +158,14 @@ p {
     text-align: center;
 }
 
+h4 {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
