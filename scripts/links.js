@@ -1,4 +1,5 @@
 const list = document.querySelector('#list');
+const baseURL = "https://ginaahumada.github.io/wdd230/";
 const linksURL = "https://ginaahumada.github.io/wdd230/data/links.json";
 
 async function getLinks() {
