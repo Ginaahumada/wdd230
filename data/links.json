@@ -1,19 +1,6 @@
 {
     "lessons": [
         {
-        "lesson": "01",
-        "links": [
-        {
-            "url":"./lesson01/holygrail.html",
-            "title":"Holy Layout"
-        },
-        {
-            "url":"https://codepen.io/ginaahumada/pen/rNbWoob",
-            "title":"JS Pen"
-        }
-        ]
-        },
-        {
         "lesson": "02",
         "links": [
         {
@@ -34,11 +21,11 @@
             "title":"Combinators"
         },
         {
-            "url":"https://codepen.io/ginaahumada/pen/vYMyvvy",
+            "url":"https://codepen.io/ginaahumada/pen/ExGdQbw",
             "title":"CSS Psuedo Elements"
         },
         {
-            "url":"https://codepen.io/ginaahumada/pen/bGJBOOL",
+            "url":"https://codepen.io/ginaahumada/pen/abPRqjq",
             "title":"Responsive Menu"
         }
         ]
@@ -47,7 +34,7 @@
         "lesson": "04",
         "links": [
         {
-            "url":"https://codepen.io/ginaahumada/pen/jORVXXp",
+            "url":"https://codepen.io/ginaahumada/pen/VwqJeZr",
             "title":"Pseudo-class Fun"
         }
         ]
@@ -59,26 +46,18 @@
             "url":"./lesson05/bom.html",
             "title":"Book of Mormon Favorite Chapters Application"
         },
-        {
-            "url":"lesson03/images/landscape.webp",
-            "title":"WebP"
-        },
-        {
-            "url":"/wdd230/lesson/responsive-images.html",
-            "title":"Responsive Images"
-        }
         ]
         },
         {
         "lesson": "06",
         "links": [
         {
-            "url":"./lesson03/lazyload.html",
-            "title":"Lazy Loading"
+            "url":"lesson06/images/landscape.webp",
+            "title":"WebP"
         },
         {
-            "url":"./lesson06/bom.html",
-            "title":"localStorage"
+            "url":"/wdd230/lesson06/responsive-images.html",
+            "title":"Responsive Images"
         }
         ]
         },
@@ -86,12 +65,12 @@
         "lesson": "07",
         "links": [
         {
-            "url":"./lesson07/tablebuild.html",
-            "title":"HTML Tables for Data Presentation"
+            "url":"./lesson07/lazyload.html",
+            "title":"Lazy Load"
         },
         {
-            "url":"./lesson07/form-start/index.html",
-            "title":"HTML Forms"
+            "url":"./lesson07/bom.html",
+            "title":"local Storage"
         }
         ]
         },
@@ -99,8 +78,12 @@
         "lesson": "08",
         "links": [
         {
-            "url":"./lesson05/new-ward-members.json",
-            "title":"json Family Members"
+            "url":"./lesson08/tablebuild.html",
+            "title":" HTML Tables"
+        },
+        {
+            "url":"./lesson08/form-start/index.html",
+            "title":"HTML Forms"
         }
         ]
         },
@@ -108,8 +91,13 @@
         "lesson": "09",
         "links": [
         {
+            "url":"./lesson09/new-ward-members.json",
+            "title":"JavaScript Object Notation (JSON)"
+        }
+
+        {
             "url":"./lesson09/prophets.html",
-            "title":"Prophets Api"
+            "title":"The Fetch API"
         },
         {
             "url":"./data/links.json",
@@ -121,7 +109,7 @@
         "lesson": "10",
         "links": [
         {
-            "url":"./lesson05/weather.html",
+            "url":"./lesson10/weather.html",
             "title":"Weather API"
         }
         ]
