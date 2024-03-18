@@ -13,6 +13,7 @@
         }
         ]
         },
+
         {
         "lesson": "03",
         "links": [
@@ -30,6 +31,7 @@
         }
         ]
         },
+
         {
         "lesson": "04",
         "links": [
@@ -39,15 +41,17 @@
         }
         ]
         },
+
         {
         "lesson": "05",
         "links": [
         {
             "url":"./lesson05/bom.html",
             "title":"Book of Mormon Favorite Chapters Application"
-        },
+        }
         ]
         },
+
         {
         "lesson": "06",
         "links": [
@@ -61,6 +65,7 @@
         }
         ]
         },
+
         {
         "lesson": "07",
         "links": [
@@ -74,6 +79,7 @@
         }
         ]
         },
+
         {
         "lesson": "08",
         "links": [
@@ -87,14 +93,14 @@
         }
         ]
         },
+
         {
         "lesson": "09",
         "links": [
         {
             "url":"./lesson09/new-ward-members.json",
             "title":"JavaScript Object Notation (JSON)"
-        }
-
+        },
         {
             "url":"./lesson09/prophets.html",
             "title":"The Fetch API"
@@ -105,6 +111,7 @@
         }
         ]
         },
+
         {
         "lesson": "10",
         "links": [
