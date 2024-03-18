@@ -585,3 +585,25 @@ span .toggle {
 	letter-spacing: 1.1pt;
     padding: 20px;
 }
+/* banner */
+
+#banner {
+    padding: 50px;
+    align-content: center;
+    justify-content: center;
+    background-color: #277391;
+    color: #fff;
+    text-align: center;
+}
+
+#closeButton {
+    cursor: pointer;
+    float: inherit;
+    font-weight: bold;
+}
+#banner p {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

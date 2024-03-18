@@ -20,6 +20,10 @@
     <meta name="author" content="Gina Ahumada" />
 </head>
 <body>
+    <div id="banner">
+        <p>Join us for the Chamber of Commerce website meet and greet on Wednesday at 7:00 p.m.</p>
+        <span id="closeButton" onclick="closedBanner()">❌</span>
+    </div>
     <div id="dark">
         🕶️
     </div>
@@ -64,10 +68,11 @@
         </section>
         <section class="weather">
             <h1>Weather</h1>
-            <span id="temperature">49 °F</span>
-            <span id="windspeed">5 mph</span>
-            <span id="windchill"></span>
-            <p>Humidity: 35%</p>
+            <h3>Temperature: <span id="current-temp"></span></h3>
+            <figure>
+                <div id="weather-container"></div>
+            <figcaption></figcaption>
+            </figure>
         </section>
         <section class="publicity-1">
             <h1>Publicity 1</h1>
@@ -99,5 +104,7 @@
     </footer>
     <script src="./scripts/getdates.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="./scripts/weather.js"></script>
+    <script src="./scripts/banner.js"></script>
 </body>
 </html>
