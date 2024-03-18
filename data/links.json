@@ -1,6 +1,19 @@
 {
     "lessons": [
         {
+        "lesson": "01",
+        "links": [
+        {
+            "url":"./lesson01/holygrail.html",
+            "title":"Holy Layout"
+        },
+        {
+            "url":"https://codepen.io/ginaahumada/pen/rNbWoob",
+            "title":"JS Pen"
+        }
+        ]
+        },
+        {
         "lesson": "02",
         "links": [
         {
