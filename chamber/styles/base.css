@@ -460,3 +460,128 @@ form input.submitBtn {
     margin: 0 auto; 
     max-width: 600px; 
 }
+
+
+
+
+/* drectory.html  css cards and list toggle */
+
+/* main {
+	margin: 0 auto;
+	padding: 0.5rem;
+	max-width: 700px;
+	background-color: #fff;
+	font-family: Roboto, Helvetica, sans-serif;
+} */
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #213b44;
+	text-align: center;
+}
+
+.menu button {
+	padding: 2rem;
+	font-weight: 700;
+}
+
+.toggle {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #eee;
+    width: 400px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 10px;
+    align-items: stretch; 
+    justify-content: center;
+}
+
+.grid {
+    margin: 20px;
+}
+#grid {
+    font-size: 2.0rem;
+    height: 100px;
+    width: 300px;
+    
+}
+#list {
+    font-size: 2.0rem;
+    height: 100px;
+    width: 300px;
+}
+.grid .toggle {
+	text-align: center;
+}
+h2 {
+    margin: 20px;
+}
+span .toggle {
+    height: 800px;
+}
+.grid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+    height: 100px;
+    width: 100px;
+}
+
+.grid .toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #eee;
+    width: 400px;
+    margin: auto;
+    height: 100%;
+}
+
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list .toggle {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+    width: 100%;
+}
+/* 
+.list .toggle > * {
+	margin: 0 1rem;
+} */
+
+.list .toggle img {
+	display: none
+}
+
+
+.list .toggle:nth-child(even) {
+	background-color: white;
+}
+
+
+.toggle p {
+	font-weight: 600;
+    padding: 20px;
+}
+
+.toggle a {
+	font-size: 0.85rem;
+	color: navy;
+	letter-spacing: 1.1pt;
+    padding: 20px;
+}

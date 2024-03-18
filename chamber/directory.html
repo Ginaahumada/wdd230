@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cartagena Chamber of Commerce</title>
+    <title>Cartagena Chamber of Commerce Directory of members</title>
     <meta property="og:url" content="https://ginaahumada.github.io/wdd230/chamber/" /> 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Cartagena Chamber of Commerce." />
@@ -20,10 +20,10 @@
     <meta name="author" content="Gina Ahumada" />
 </head>
 <body>
-    <div id="dark">
-        🕶️
-    </div>
     <header>
+        <div id="dark">
+            🕶️
+        </div>
         <img class="logo" src="images/chamber_logo.webp" alt="Chamber logo">
         <nav>
             <button id="menu"></button>
@@ -38,53 +38,21 @@
                     <a href="./directory.html" target=”_blank”>Directory</a><hr>
                 </li>
                 <li>
-                    <a href="./join.html" target=”_blank”>Join</a><hr>
+                    <a href="./join.html" target=”_blank”>Join</a>
                 </li>
-                <a class="button-hero" href="#">Sing-up</a>
             </ul>
         </nav>
+        <a class="button-hero" href="./join.html">Sing-up</a>
     </header>
+    <main>
 
-    <div class="hero">
-        <picture>
-            <source srcset="images/hero-small.webp" media="(max-width: 400px)">
-            <source srcset="images/hero-medium.webp" media="(max-width: 960px)">
-            <img src="images/hero-large.webp" alt="table setting" width="1280" height="853">
-        </picture>
-        <div class="hero2">
-            <h1>Promoting Sustainable Growth.</h1>
-            <a class="button-hero" href="www.facebook.com">join</a>
+        <div class="menu">
+            <button id="grid">🗃️Grid</button>
+            <button id="list">📃List</button>
         </div>
-    </div>
-
-    <main class="container">
-        <section class="event">
-            <h1>Events</h1>
-            <p>join Us</p>
-        </section>
-        <section class="weather">
-            <h1>Weather</h1>
-            <span id="temperature">49 °F</span>
-            <span id="windspeed">5 mph</span>
-            <span id="windchill"></span>
-            <p>Humidity: 35%</p>
-        </section>
-        <section class="publicity-1">
-            <h1>Publicity 1</h1>
-            <p>------------</p>
-        </section>
-        <section class="publicity-2">
-            <h1>Publicity 2</h1>
-            <p>------------</p>
-        </section>
-        <section class="publicity-3">
-            <h1>Publicity 3</h1>
-            <p>------------</p>
-        </section>
-        <section class="publicity-4">
-            <h1>Publicity 3</h1>
-            <p>------------</p>
-        </section>
+        <article class="grid" id="cards">
+        <!-- <div class="" ></div> -->
+        </article>
     </main>
 
     <footer>
@@ -97,7 +65,9 @@
             <p id="last-modification">Last Modification: </p>
         </div>
     </footer>
+
     <script src="./scripts/getdates.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="./scripts/directory.js"></script>
 </body>
 </html>

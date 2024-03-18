@@ -1,0 +1,67 @@
+{
+    "companies": [
+    {
+        "name": "Dell",
+        "address": "123 Main Street, Cartagena, Colombia",
+        "phone": "123-456-7890",
+        "website": "https://www.dell.com/",
+        "image": "./images/dell.webp",
+        "membership_level": "Gold",
+        "other_information": "Dell's mission is to be the most successful computer company in the world at delivering the best customer experience in markets we serve."
+    },
+    {
+        "name": "HP",
+        "address": "456 Oak Street, Cartagena, Colombia",
+        "phone": "987-654-3210",
+        "website": "https://www.hp.com/",
+        "image": "./images/hp.webp",
+        "membership_level": "Silver",
+        "other_information": "Our vision at HP is to create technology that makes life better for everyone, everywhere; and our mission is to create experiences that amaze."
+    },
+    {
+        "name": "IBM",
+        "address": "789 Pine Street, Cartagena, Colombia",
+        "phone": "555-123-4567",
+        "website": "https://www.ibm.com/",
+        "image": "./images/ibm.webp",
+        "membership_level": "Bronze",
+        "other_information": "lead in the creation, development and manufacture of the industry's most advanced information technologies, including computer systems, software, networking systems, storage devices and microelectronics."
+    },
+    {
+        "name": "Adobe Animate",
+        "address": "101 Elm Street, Cartagena, Colombia",
+        "phone": "111-222-3333",
+        "website": "https://blog.adobe.com/en/topics/animate",
+        "image": "./images/adobe.webp",
+        "membership_level": "Gold",
+        "other_information": "To change the world through digital experiences."
+    },
+    {
+        "name": "Tesla",
+        "address": "202 Cedar Street, Cartagena, Colombia",
+        "phone": "444-555-6666",
+        "website": "https://www.tesla.com/",
+        "image": "./images/tesla.webp",
+        "membership_level": "Silver",
+        "other_information": "to accelerate the world's transition to sustainable energy"
+    },
+    {
+        "name": "Tidal",
+        "address": "303 Birch Street, Cartagena, Colombia",
+        "phone": "777-888-9999",
+        "website": "http://www.companyF.com",
+        "image": "./images/tidal.webp",
+        "membership_level": "Gold",
+        "other_information": "Tidal's primary mission is to design, develop, and implement technology solutions that meet or exceed the specifications set forth by our customers."
+    },
+    {
+        "name": "Logitech",
+        "address": "404 Maple Street, Cartagena, Colombia",
+        "phone": "999-000-1111",
+        "website": "https://www.logitechg.com/",
+        "image": "./images/logitech.webp",
+        "membership_level": "Bronze",
+        "other_information": "To continue growing and nurturing a diverse and inclusive company culture that strives for fair representation, access, and opportunity for advancement at all levels of the company."
+    }
+    ]
+}
