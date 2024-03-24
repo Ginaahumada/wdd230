@@ -309,14 +309,15 @@ main form {
 form {
     display: flex;
     justify-content: center;
-    align-items: left;
+    align-items: flex-start;
     flex-direction: column;
     padding: 30px;
     width: 325px;
     border-radius: 50px;
     background: linear-gradient(145deg, #e6e6e6, #ffffff);
-    box-shadow:  24px 24px 48px #c4c4c4,-24px -24px 48px #ffffff;
+    box-shadow:  24px 24px 48px #c4c4c4, -24px -24px 48px #ffffff;
 }
+
 label {
     display: flex;
     flex-direction: column;
@@ -385,17 +386,7 @@ h1.h1form {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-form {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    padding: 30px;
-    width: 325px;
-    border-radius: 50px;
-    background: linear-gradient(145deg, #e6e6e6, #ffffff);
-    box-shadow:  24px 24px 48px #c4c4c4,-24px -24px 48px #ffffff;
-}
+
 label {
     display: flex;
     flex-direction: column;
