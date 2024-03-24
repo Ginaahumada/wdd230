@@ -35,7 +35,7 @@ li a:visited {
     font-family: 'Acme', sans-serif;
 }
 li a:hover {
-    color: rgb(255, 255, 255);
+    color: #164164 (255, 255, 255);
 }
 ul {
     width: 700px;
@@ -116,6 +116,8 @@ section a {
     display: flex;
     align-items: start;
     flex-direction: column;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 section h1 {
     width: 100%;
@@ -135,28 +137,55 @@ section p {
     grid-row-gap: 30px;
     grid-column-gap: 30px;
 }
+
 .event {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     grid-column: 1/2;
     grid-row: 1/2;
 }
+
 .weather {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-column: 3/4;
     grid-row: 1/2;
 }
 .publicity-1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-column: 2/3;
     grid-row: 1/2;
 }
 .publicity-2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-column: 1/2;
     grid-row: 2/3;
 }
 .publicity-3 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-column: 2/3;
     grid-row: 2/3;
 }
 
 .publicity-4 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-column: 3/4;
     grid-row: 2/3;
 }
@@ -204,18 +233,6 @@ button,.button-footer {
     font-family: 'Oswald', sans-serif;
 }
 
-
-/* Discover main css */
-
-.container {
-    display: grid;
-    margin: 30px;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 30px;
-    grid-column-gap: 30px;
-}
-
 .container-discover {
     display: grid;
     margin: 30px;
@@ -255,6 +272,7 @@ picture {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    overflow: hidden;
 }
 .information-discover {
     margin: 20px;
@@ -447,7 +465,7 @@ form input.submitBtn {
 
 
 
-/* drectory.html  css cards and list toggle */
+/* directory.html  css cards and list toggle */
 
 /* main {
 	margin: 0 auto;
@@ -461,7 +479,7 @@ form input.submitBtn {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-    background-color: #277391;
+	background-color: #277391;
 	text-align: center;
 }
 
@@ -568,6 +586,13 @@ span .toggle {
 	letter-spacing: 1.1pt;
     padding: 20px;
 }
+
+/* img {
+	height: 100%;
+	max-width: 100%; 
+} */
+
+
 /* banner */
 
 #banner {
