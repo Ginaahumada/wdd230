@@ -30,7 +30,7 @@ nav {
 li a:active ,
 li a:link ,
 li a:visited { 
-	color: #277391;
+	color: #164164;
     text-decoration: none;
     font-family: 'Acme', sans-serif;
 }
