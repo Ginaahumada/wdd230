@@ -7,18 +7,15 @@
     header {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: column;
     }
     #menu {
         display: block;
         font-size: 1.5rem;
-        border: 1px solid rgba(0,0,0,.3);
+        border: 1px solid rgba(0, 0, 0, .3);
         padding: 3px 7px 6px;
         background-color: #eee;
-        position: fixed;
-        top: 0;
-        right: 0;
     }
     
     li a:active ,
@@ -114,10 +111,22 @@
         border-bottom: 1px solid #277391;
     }
     .event {
+        justify-content: center;
+        width: 90%;
+        margin-left: 25px;
+        margin-right: 25px;
+        overflow: hidden;
+        text-align: center;
         grid-column: 1/2;
         grid-row: 1/2;
     }
-    #weather {
+    .weather {
+        justify-content: center;
+        width: 90%;
+        margin-left: 25px;
+        margin-right: 25px;
+        overflow: hidden;
+        text-align: center;
         grid-column: 1/2;
         grid-row: 2/3;
     }
@@ -126,6 +135,8 @@
         width: 90%;
         margin-left: 25px;
         margin-right: 25px;
+        overflow: hidden;
+        text-align: center;
         grid-column: 1/2;
         grid-row: 3/4;
     }
@@ -134,6 +145,8 @@
         width: 90%;
         margin-left: 25px;
         margin-right: 25px;
+        overflow: hidden;
+        text-align: center;
         grid-column: 1/2;
         grid-row: 4/5;
     }
@@ -142,9 +155,22 @@
         width: 90%;
         margin-left: 25px;
         margin-right: 25px;
+        overflow: hidden;
+        text-align: center;
         grid-column: 1/2;
         grid-row: 5/6;
     }
+    .publicity-4 {
+        justify-content: center;
+        width: 90%;
+        margin-left: 25px;
+        margin-right: 25px;
+        overflow: hidden;
+        text-align: center;
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    
     .button-hero {
         margin-bottom: 20px;
     }

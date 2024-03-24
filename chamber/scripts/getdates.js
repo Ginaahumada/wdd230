@@ -5,14 +5,6 @@ document.querySelector('#year').innerHTML += currentYear;
 const lastModification = document.querySelector('#last-modification');
 lastModification.textContent += document.lastModified;
 
-const hamButton = document.querySelector('#menu');
-const navigation = document.querySelector('.navigation');
-
-hamButton.addEventListener('click', () => {
-	navigation.classList.toggle('open');
-	hamButton.classList.toggle('open');
-});
-
 const modeButton = document.querySelector("#dark");
 const body = document.body;
 const header = document.querySelector("header"); 
