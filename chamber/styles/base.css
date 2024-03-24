@@ -35,7 +35,7 @@ li a:visited {
     font-family: 'Acme', sans-serif;
 }
 li a:hover {
-    color: purple;
+    color: rgb(255, 255, 255);
 }
 ul {
     width: 700px;
@@ -461,7 +461,7 @@ form input.submitBtn {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #213b44;
+    background-color: #277391;
 	text-align: center;
 }
 
