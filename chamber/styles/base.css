@@ -47,18 +47,22 @@ ul {
 }
 
 .hero {
-	margin: 10px auto;
-	position: relative;
-	border: 1px solid rgba(0,0,0,.1);
-	height: 300px;
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
     width: 100%;
-    height: auto;
+    max-width: 1280px;
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
 }
 
 .hero img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
 }
 
 .hero2 {
