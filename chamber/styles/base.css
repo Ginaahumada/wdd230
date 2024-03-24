@@ -303,7 +303,7 @@ main form {
     grid-column: 1/2;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     flex-direction: column;
 }
 form {
@@ -384,12 +384,6 @@ h1.h1form {
 .form-page {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-main form {
-    margin: 0 auto;
-    margin-bottom: 80px;
-    grid-column: 1/2;
 }
 form {
     display: flex;
