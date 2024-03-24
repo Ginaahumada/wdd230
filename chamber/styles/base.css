@@ -282,23 +282,29 @@ h1.h1form {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .levels {
     grid-column: 2/3;
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: start; 
     flex-direction: column;
     padding: 30px;
     width: 90%;
     border-radius: 50px;
     background: linear-gradient(145deg, #e6e6e6, #ffffff);
-    box-shadow:  24px 24px 48px #c4c4c4,-24px -24px 48px #ffffff;
+    box-shadow: 24px 24px 48px #c4c4c4, -24px -24px 48px #ffffff;
     margin-bottom: 80px;
 }
+
 main form {
     margin: 0 auto;
     margin-bottom: 80px;
     grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
 }
 form {
     display: flex;
@@ -379,19 +385,7 @@ h1.h1form {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.levels {
-    grid-column: 2/3;
-    display: flex;
-    justify-content: space-between;
-    align-items:start;
-    flex-direction: column;
-    padding: 30px;
-    width: 90%;
-    border-radius: 50px;
-    background: linear-gradient(145deg, #e6e6e6, #ffffff);
-    box-shadow:  24px 24px 48px #c4c4c4,-24px -24px 48px #ffffff;
-    margin-bottom: 80px;
-}
+
 main form {
     margin: 0 auto;
     margin-bottom: 80px;
