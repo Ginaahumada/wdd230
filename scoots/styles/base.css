@@ -424,6 +424,8 @@ h1 {
     z-index: 1000; 
     backdrop-filter: blur(5px); 
     font-family: 'Oswald', sans-serif;
+    word-wrap: break-word; /* Permitir que el texto se divida en palabras */
+    overflow-wrap: break-word;
 }
 
 .message.show {
@@ -440,6 +442,6 @@ h1 {
 }
 
 .message .closebtn:hover {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 

@@ -23,6 +23,10 @@
     <meta name="author" content="Gina Ahumada" />
 </head>
 <body>
+    <div class="message">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Today's high temperature: <span id="high-temp"></span>&deg;F
+    </div>
     <header class="header">
         <a href="./index.html" class="logo">Scoots🛵</a>
         <input type="checkbox" id="check">
@@ -39,10 +43,7 @@
         </nav>
     </header>
     <div class="background"></div>
-    <div class="message">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-        Today's high temperature: <span id="high-temp"></span>&deg;F
-    </div>
+
     <div class="hero">
         <picture>
             <source srcset="./img/scoots-small.webp" media="(max-width: 600px)">
