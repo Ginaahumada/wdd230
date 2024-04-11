@@ -89,4 +89,20 @@ function displayResults(data) {
     document.getElementById('high-temp').textContent = highTemp;
 }
 
+function displayResults(data) {
+    // Existing code...
+
+    // Display high temperature in the message
+    const highTemp = Math.round(data.main.temp_max);
+    document.getElementById('high-temp').textContent = highTemp;
+
+    // Show the message
+    const message = document.querySelector('.message');
+    message.classList.add('show');
+
+    // Show the message
+    const message = document.querySelector('.message');
+    message.classList.add('show');
+}
+
 displayWeather();

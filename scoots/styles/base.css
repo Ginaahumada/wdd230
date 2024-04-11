@@ -412,3 +412,34 @@ h1 {
     margin: 20px auto; 
     padding: 20px;
 }
+
+.message {
+    position: fixed;
+    top: 0;
+    width: 10%;
+    padding: 17px;
+    background-color: rgba(93, 81, 124, 0.8); 
+    color: white;
+    text-align: center;
+    z-index: 1000; 
+    backdrop-filter: blur(5px); 
+    font-family: 'Oswald', sans-serif;
+}
+
+.message.show {
+    display: block; 
+}
+
+.message .closebtn {
+    color: rgb(158, 26, 26);
+    font-size: 45px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.message .closebtn:hover {
+    color: black;
+}
+
