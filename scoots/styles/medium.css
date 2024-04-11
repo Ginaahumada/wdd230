@@ -1,0 +1,22 @@
+@media (max-width: 1000px){
+    .header {
+        padding: 1.3rem 5%;
+    }
+    footer {
+        margin-top: 20px;
+        border-top: solid var(--secundary-color)  1px;
+        display: flex;
+        flex-direction: column;
+        padding: 1.3rem 5%;
+        grid-gap: 20px;
+    }
+    .hero-text {
+        position: absolute;
+        top: 25%;
+        left: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

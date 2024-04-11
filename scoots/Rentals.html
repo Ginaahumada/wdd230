@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gina Ahumada - WDD 230 - Web Frontend Development</title>
+    <meta property="og:url"                content="https://ginaahumada.github.io/wdd230/scoots/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Scoots Rentals Cozumel, Mexico" />
+    <meta property="og:image"              content="https://unsplash.com/es/fotos/motocicleta-negra-y-roja-estacionada-cerca-de-la-casa-durante-el-dia-Whd-UCi4z9Q" />
+    <link rel="icon" href="favicon-scoot.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    
+    <meta name="description" content="Scoots Rental website, our mission is to provide seamless and eco-friendly mobility solutions, empowering travelers to explore Cozumel effortlessly. We strive to enhance island adventures through convenient, affordable, and sustainable scooter rentals." />
+    <meta name="author" content="Gina Ahumada" />
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html" class="logo">Scoots🛵</a>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bxs-x-square' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a class="active" href="./Rentals.html">Rentals</a>
+            <a href="./Reservations.html">Reservations</a>
+            <a href="./Contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="background"></div>
+
+    <main class="media">
+        <h1>Rentals</h1>
+        <article id="rentals"></article>
+
+        <div id="table-container"></div>
+    </main>
+    <footer>
+        <a href="#" class="logo">Scoots🛵</a>
+        <address>Av. Calzada 3 Col. Parque Nogales, Cozumel</address>
+        <p id="year">&copy; </p>
+        <p id="last-modification">Last Modification: </p>
+        <div class="wrapper">
+            <div class="button">
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <span>Facebook</span>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <span>Twitter</span>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <span>Instagram</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./scripts/getdates.js"></script>
+    <script src="./scripts/rentals.js"></script>
+
+</body>
+</html>

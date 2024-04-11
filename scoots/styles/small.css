@@ -1,0 +1,62 @@
+@media (max-width: 768px){
+    .icons {
+        display: inline-flex;
+    }
+
+    #check:checked~.icons #menu-icon {
+        display: none;
+    }
+
+    .icons #close-icon {
+        display: none;
+    }
+
+    #check:checked~.icons #close-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(0, 0, 0, 0);
+        backdrop-filter: blur(5px);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        overflow: hidden;
+        transition: .7s ease;
+
+    }
+
+    #check:checked~.navbar {
+        height: 12.7rem;
+    }
+
+
+    .navbar a {
+        display: block; 
+        font-size: 1.1rem;
+        margin: 1.5rem;
+        text-align: center;
+        transform: translateY(-10px);
+        transition: .7s ease;
+    }
+    .navbar a:hover{
+        font-size: 2rem;
+        transition: .3s ease;
+    }
+
+    #check:checked~.navbar a {
+        transform: translateY(0);
+    }
+    .hero-text {
+        position: absolute;
+        top: 10%;
+        left: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

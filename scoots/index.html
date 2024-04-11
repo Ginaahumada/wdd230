@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gina Ahumada - WDD 230 - Web Frontend Development</title>
+    <meta property="og:url"                content="https://ginaahumada.github.io/wdd230/scoots/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Scoots Rentals Cozumel, Mexico" />
+    <meta property="og:image"              content="https://unsplash.com/es/fotos/motocicleta-negra-y-roja-estacionada-cerca-de-la-casa-durante-el-dia-Whd-UCi4z9Q" />
+    <link rel="icon" href="favicon-scoot.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    
+    <meta name="description" content="Scoots Rental website, our mission is to provide seamless and eco-friendly mobility solutions, empowering travelers to explore Cozumel effortlessly. We strive to enhance island adventures through convenient, affordable, and sustainable scooter rentals." />
+    <meta name="author" content="Gina Ahumada" />
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html" class="logo">Scoots🛵</a>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bxs-x-square' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a class="active" href="./index.html">Home</a>
+            <a href="./Rentals.html">Rentals</a>
+            <a href="./Reservations.html">Reservations</a>
+            <a href="./Contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="background"></div>
+    <div class="hero">
+        <picture>
+            <source srcset="./img/scoots-small.webp" media="(max-width: 600px)">
+            <source srcset="./img/scoots-medium.webp" media="(max-width: 1000px)">
+            <img src="./img/scoots-large.webp" alt="scooters" width="1500" height="750">
+        </picture>
+    </div>
+
+    <main>
+        <div class="hero-text">
+            <h1>Scoots Cozumel</h1>
+            <a class="button-hero" href="./Reservations.html">Rent Now</a>
+        </div>
+
+
+        <article class="general">
+            <div class="home-general-info">
+                <section class="weather">
+                    <h2>Weather</h2>
+                    <h3>Temperature: <span id="current-temp"></span></h3>
+                    <figure>
+                        <div id="weather-container"></div>
+                    <figcaption></figcaption>
+
+                    </figure>
+                    <p id="humidity"></p>
+                </section>
+            </div>
+            <div class="home-general-info">
+                <h2>contact us!</h2>
+                <p>Av. Calzada 3 Col. Parque Nogales, Cozumel</p>
+                <a href="tel:(833)150-1235">(833)150-1235</a>
+                <p>monday to sunday</p>
+                <p>From 9:00 to 17:00</p>
+            </div>
+            <div class="home-general-info">
+                <h2>Rentals</h2>
+                
+                <div class="vehicle-category">
+                    <h3><strong>Honda Motor Scooters</strong></h3>
+
+                        <p>Honda Metropolitan (49cc) - 1 person</p>
+                        <p>Honda Dio (110cc) - 2 person</p>
+                        <p>Honda PCX150 (149cc) - 2 person</p>
+
+                </div>
+            
+                <div class="vehicle-category">
+                    <h3><strong>Side-by-Side ATVs</strong></h3>
+                    
+                        <p>Honda Pioneer 1000 - 4 person</p>
+                    
+                </div>
+            
+                <div class="vehicle-category">
+                    <h3><strong>Jeeps</strong></h3>
+                    
+                        <p>Jeep Wrangler - 4 door manual with A/C - 5 person</p>
+                        <p>Jeep Wrangler - 2 door - open air - manual - 4 person</p>
+                
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <a href="#" class="logo">Scoots</a>
+        <address>Av. Calzada 3 Col. Parque Nogales, Cozumel</address>
+        <p id="year">&copy; </p>
+        <p id="last-modification">Last Modification: </p>
+        <div class="wrapper">
+            <div class="button">
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <span>Facebook</span>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <span>Twitter</span>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <span>Instagram</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./scripts/getdates.js"></script>
+    <script src="./scripts/weather.js"></script>
+
+</body>
+</html>

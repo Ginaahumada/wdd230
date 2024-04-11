@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gina Ahumada - WDD 230 - Web Frontend Development</title>
+    <meta property="og:url"                content="https://ginaahumada.github.io/wdd230/scoots/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Scoots Rentals Cozumel, Mexico" />
+    <meta property="og:image"              content="https://unsplash.com/es/fotos/motocicleta-negra-y-roja-estacionada-cerca-de-la-casa-durante-el-dia-Whd-UCi4z9Q" />
+    <link rel="icon" href="favicon-scoot.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    
+    <meta name="description" content="Scoots Rental website, our mission is to provide seamless and eco-friendly mobility solutions, empowering travelers to explore Cozumel effortlessly. We strive to enhance island adventures through convenient, affordable, and sustainable scooter rentals." />
+    <meta name="author" content="Gina Ahumada" />
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html" class="logo">Scoots🛵</a>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bxs-x-square' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="./Rentals.html">Rentals</a>
+            <a href="./Reservations.html">Reservations</a>
+            <a class="active" href="./Contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="background"></div>
+
+    <main class="contact-page">
+        <h1>Get in Touch</h1>
+        <div class="contact-content" >
+        <aside class="contact-info">
+            <img class="contact-icon" src="./img/map.png" alt="phone image">
+            <h2>Address</h2>
+            <div>
+            <h3>West side</h3>
+            <p>Av. Calzada 3 Col. Parque Nogales, Cozumel</p>
+            </div>
+            <div>
+                <h3>Est side</h3>
+                <p>street Calzada 80 Col. Nora, Cozumel</p>
+            </div>
+        </aside>
+
+        <aside class="contact-info">
+            <img class="contact-icon" src="./img/telephone-box.png" alt="phone image">
+            <h2>Phone</h2>
+            <div>
+            <h3>West side</h3>
+            <p>(833)150-1235</p>
+            </div>
+            <div>
+                <h3>Est side</h3>
+                <p>(833)150-1235</p>
+            </div>
+        </aside>
+
+        <aside class="contact-info">
+            <img class="contact-icon" src="./img/email.png" alt="phone image">
+            <h2>Email</h2>
+            <div>
+            <h3>West side</h3>
+            <p>scoots_west@scoots.com</p>
+            </div>
+            <div>
+                <h3>Est side</h3>
+                <p>scoots_est@scoots.com</p>
+            </div>
+        </aside>
+        </div>
+        <article>
+            <h1>Message Us</h1>
+        </article>
+        <div class="form-container">
+        <form  action="./thanks.html" method="get" class="centered-form">
+            <fieldset>
+            <label for="name">Name:<input type="text" id="name" name="name" required></label>
+            
+    
+            <label for="email">Email:<input type="email" id="email" name="email" required></label>
+            
+    
+            <label for="number">Phone Number: <input type="tel" id="number" name="subject" pattern="[0-9]+" title="Please enter only numbers" required></label>
+
+            
+    
+            <label for="Comments">Comments:<textarea id="Comments" name="Comments" rows="5" required></textarea></label>
+            <input type="submit" value="Contact Us" class="submitBtn">
+            </fieldset>
+        </form>
+        <div>
+            <form action=""></form>
+        </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119605.44624149351!2d-86.98676218628043!3d20.478734787545775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e58330a673659%3A0x9cedf516c7d86e9a!2sSan%20Miguel%20de%20Cozumel%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sca!4v1701915810926!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </main>
+    <footer>
+        <a href="#" class="logo">Scoots</a>
+        <address>Av. Calzada 3 Col. Parque Nogales, Cozumel</address>
+        <p id="year">&copy; </p>
+        <p id="last-modification">Last Modification: </p>
+        <div class="wrapper">
+            <div class="button">
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <span>Facebook</span>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <span>Twitter</span>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <span>Instagram</span>
+            </div>
+        </div>
+    </footer>
+    <script src="./scripts/getdates.js"></script>
+
+</body>
+</html>
